@@ -1,0 +1,310 @@
+.btn-master, .btn-primary, .btn-secondary {
+  padding: 8px 16px 8px 16px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn-primary {
+  border: none;
+  color: #15265C;
+  background: #2EE09A;
+}
+
+.btn-primary:hover {
+  background: #ef84f5;
+  background: -webkit-gradient(linear, left top, right top, from(#ef84f5), to(#2ee19a));
+  background: linear-gradient(90deg, #ef84f5 0%, #2ee19a 100%);
+  color: #101d49;
+  -webkit-box-shadow: 0px 1px 34px 0px rgba(239, 132, 245, 0.72);
+          box-shadow: 0px 1px 34px 0px rgba(239, 132, 245, 0.72);
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.btn-primary:focus {
+  background: #EF84F5;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #101d49;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.btn-primary:active {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.btn-secondary {
+  background: none;
+  border-width: 2px;
+  border-color: #2EE09A;
+}
+
+.btn-secondary:active {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.btn-secondary:focus {
+  background: #2EE09A;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: #2EE09A;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.btn-secondary:hover {
+  background: #2EE09A;
+  color: #101d49;
+  -webkit-box-shadow: 0px 1px 34px 0px rgba(46, 224, 154, 0.72);
+          box-shadow: 0px 1px 34px 0px rgba(46, 224, 154, 0.72);
+  -webkit-transition: 300ms;
+  transition: 300ms;
+  border-color: #2EE09A;
+}
+
+html {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  padding-top: 64px;
+  background: no-repeat;
+  font-family: 'Montserrat', sans-serif;
+  background: #1e8e61;
+  background: -webkit-gradient(linear, left top, left bottom, from(#1e8e61), to(#15265c));
+  background: linear-gradient(180deg, #1e8e61 0%, #15265c 100%);
+}
+
+nav {
+  background: #ffffff1c;
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  -webkit-box-shadow: 0px 0px 76px -16px rgba(0, 0, 0, 0.247);
+          box-shadow: 0px 0px 76px -16px rgba(0, 0, 0, 0.247);
+}
+
+nav .navbar-nav .active {
+  color: #2EE09A !important;
+  font-weight: 600 !important;
+}
+
+nav .navbar-nav .nav-link {
+  color: #ffffff;
+  font-weight: 400;
+}
+
+nav .navbar-nav li {
+  padding-left: 42px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.info {
+  padding: 32px 0 32px 0;
+}
+
+.info hr {
+  color: #ffffff69;
+}
+
+.info .photo {
+  text-align: center;
+  padding-right: 0;
+}
+
+.info .photoprofil {
+  margin: 0 auto 0 auto;
+  border-radius: 10px;
+  border-width: 3px;
+  border-color: #2EE09A;
+  border-style: solid;
+}
+
+.info .desc h3 {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.info .desc h6 {
+  color: #ffffff69;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.info .desc p {
+  color: #ffffff69;
+  margin-bottom: 0;
+}
+
+.info .contact p {
+  color: #ffffff69;
+}
+
+.info .contact h5 {
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.info .contact ul {
+  color: #ffffff69;
+  padding-left: 0;
+}
+
+.info .contact ul li {
+  list-style: none;
+}
+
+.info .contact ul img {
+  padding-right: 16px;
+  padding-top: 4px;
+}
+
+.info .education h5 {
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.info .education h4 {
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.info .education h6 {
+  font-weight: 600;
+  color: #ffffff69;
+  letter-spacing: 1px;
+}
+
+.info .education p {
+  font-weight: 400;
+  color: #ffffff69;
+}
+
+.info .skills p {
+  color: #ffffff69;
+}
+
+.info .skills h4 {
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.info .skills h6 {
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.info .skills img {
+  margin-right: 16px;
+  width: 16px;
+  text-align: center;
+}
+
+.info .skills .box {
+  background: #287053;
+  border-radius: 8px;
+}
+
+.info .skills .box .bahasa {
+  border-radius: 8px;
+  width: 80%;
+  background: #2EE09A;
+}
+
+.info .skills .box .bahasa p {
+  color: #15265C;
+  text-align: right;
+  margin-right: 8px;
+}
+
+.info .skills .box .english {
+  border-radius: 8px;
+  width: 30%;
+  background: #2EE09A;
+}
+
+.info .skills .box .english p {
+  color: #15265C;
+  text-align: right;
+  margin-right: 8px;
+}
+
+.info .skills .box .figma {
+  border-radius: 8px;
+  width: 70%;
+  background: #2EE09A;
+}
+
+.info .skills .box .figma p {
+  color: #15265C;
+  text-align: right;
+  margin-right: 8px;
+}
+
+.info .skills .box .illustrator {
+  border-radius: 8px;
+  width: 50%;
+  background: #2EE09A;
+}
+
+.info .skills .box .illustrator p {
+  color: #15265C;
+  text-align: right;
+  margin-right: 8px;
+}
+
+.info .skills .box .html {
+  border-radius: 8px;
+  width: 45%;
+  background: #2EE09A;
+}
+
+.info .skills .box .html p {
+  color: #15265C;
+  text-align: right;
+  margin-right: 8px;
+}
+
+.info .skills .box .css {
+  border-radius: 8px;
+  width: 40%;
+  background: #2EE09A;
+}
+
+.info .skills .box .css p {
+  color: #15265C;
+  text-align: right;
+  margin-right: 8px;
+}
+
+.info .skills .box .js {
+  border-radius: 8px;
+  width: 15%;
+  background: #2EE09A;
+}
+
+.info .skills .box .js p {
+  color: #15265C;
+  text-align: right;
+  margin-right: 8px;
+}
+
+footer {
+  font-size: 12px;
+  color: #ffffff69;
+  text-align: center;
+}
+/*# sourceMappingURL=aboutme.css.map */

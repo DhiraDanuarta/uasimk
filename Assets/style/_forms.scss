@@ -1,0 +1,58 @@
+@import './buttons';
+$regular: 400;
+$semibold: 600;
+$bold: 700;
+
+.inputform{
+    .master-form{
+        padding: 8px 16px 8px 16px;
+        background: $transparentwhite;
+        color: $white;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .inputuser{
+        margin-top: 32px;
+    }
+
+    .form-label{
+        font-weight: $semibold;
+    }
+
+    .inputpass{
+        margin-top: 24px;
+    }
+
+    .form-control{
+        @extend .master-form;
+    }
+
+    .form-control:focus{
+        background: $navy;
+        box-shadow: none;
+        
+    }
+
+    ::placeholder{
+        color: $darknavy !important;
+    }
+    
+    input:focus::-webkit-input-placeholder {
+        color: $desc !important;
+    }
+
+    #username{
+        margin-top: 4px;  
+    }
+
+    #password{
+        margin-top: 4px;
+        margin-bottom: 32px;
+    }
+
+    .btn{
+        margin-top: 16px;
+        width: 100%;
+    }
+}
