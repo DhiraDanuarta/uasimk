@@ -91,6 +91,14 @@ nav {
           box-shadow: 0px 0px 76px -16px rgba(0, 0, 0, 0.247);
 }
 
+nav .collapse {
+  text-align: center;
+}
+
+nav .collapse li {
+  padding-left: 0;
+}
+
 nav .navbar-toggler {
   color: #ffffff;
 }
@@ -103,6 +111,12 @@ nav .navbar-nav .active {
 nav .navbar-nav .nav-link {
   color: #ffffff;
   font-weight: 400;
+}
+
+nav .navbar-nav .nav-link:hover {
+  color: #2ee09a;
+  -webkit-transition: 300ms;
+  transition: 300ms;
 }
 
 nav .navbar-nav li {
@@ -307,6 +321,8 @@ nav .navbar-nav li {
 }
 
 footer {
+  padding: 2em 0 0 0;
+  page-break-after: always;
   font-size: 12px;
   color: #ffffff69;
   text-align: center;

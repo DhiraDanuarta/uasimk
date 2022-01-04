@@ -23,6 +23,13 @@ nav {
   background: $transparentwhite;
   backdrop-filter: blur(8px);
   box-shadow: 0px 0px 76px -16px rgba(0, 0, 0, 0.247);
+  .collapse {
+    text-align: center;
+
+    li {
+      padding-left: 0;
+    }
+  }
   .navbar-toggler {
     color: $white;
   }
@@ -35,6 +42,10 @@ nav {
     .nav-link {
       color: $white;
       font-weight: $regular;
+    }
+    .nav-link:hover {
+      color: $green;
+      transition: 300ms;
     }
 
     li {
@@ -57,7 +68,7 @@ nav {
 
   .copywriting {
     display: flex;
-    margin: auto;
+    margin: auto 0;
     .header {
       color: $white;
       font-weight: $semibold;
@@ -155,4 +166,5 @@ footer {
   font-size: 12px;
   color: $desc;
   text-align: center;
+  padding: 2em 0 0 0;
 }
