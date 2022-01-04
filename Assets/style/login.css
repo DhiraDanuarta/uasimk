@@ -1,5 +1,9 @@
+a {
+  color: #15265c;
+}
+
 .btn-master, .btn-primary, .btn-secondary {
-  padding: 8px 16px 8px 16px;
+  padding: 0.5em 1em;
   border-radius: 5px;
   font-weight: 700;
   font-size: 16px;
@@ -10,8 +14,8 @@
 
 .btn-primary {
   border: none;
-  color: #15265C;
-  background: #2EE09A;
+  color: #15265c;
+  background: #2ee09a;
 }
 
 .btn-primary:hover {
@@ -26,7 +30,7 @@
 }
 
 .btn-primary:focus {
-  background: #EF84F5;
+  background: #ef84f5;
   -webkit-box-shadow: none;
           box-shadow: none;
   color: #101d49;
@@ -42,7 +46,7 @@
 .btn-secondary {
   background: none;
   border-width: 2px;
-  border-color: #2EE09A;
+  border-color: #2ee09a;
 }
 
 .btn-secondary:active {
@@ -51,26 +55,30 @@
 }
 
 .btn-secondary:focus {
-  background: #2EE09A;
+  background: #2ee09a;
   -webkit-box-shadow: none;
           box-shadow: none;
-  border-color: #2EE09A;
+  border-color: #2ee09a;
   -webkit-transition: 300ms;
   transition: 300ms;
 }
 
 .btn-secondary:hover {
-  background: #2EE09A;
+  background: #2ee09a;
   color: #101d49;
   -webkit-box-shadow: 0px 1px 34px 0px rgba(46, 224, 154, 0.72);
           box-shadow: 0px 1px 34px 0px rgba(46, 224, 154, 0.72);
   -webkit-transition: 300ms;
   transition: 300ms;
-  border-color: #2EE09A;
+  border-color: #2ee09a;
+}
+
+a {
+  color: #15265c;
 }
 
 .btn-master, .btn-primary, .btn-secondary {
-  padding: 8px 16px 8px 16px;
+  padding: 0.5em 1em;
   border-radius: 5px;
   font-weight: 700;
   font-size: 16px;
@@ -81,8 +89,8 @@
 
 .btn-primary {
   border: none;
-  color: #15265C;
-  background: #2EE09A;
+  color: #15265c;
+  background: #2ee09a;
 }
 
 .btn-primary:hover {
@@ -97,7 +105,7 @@
 }
 
 .btn-primary:focus {
-  background: #EF84F5;
+  background: #ef84f5;
   -webkit-box-shadow: none;
           box-shadow: none;
   color: #101d49;
@@ -113,7 +121,7 @@
 .btn-secondary {
   background: none;
   border-width: 2px;
-  border-color: #2EE09A;
+  border-color: #2ee09a;
 }
 
 .btn-secondary:active {
@@ -122,22 +130,22 @@
 }
 
 .btn-secondary:focus {
-  background: #2EE09A;
+  background: #2ee09a;
   -webkit-box-shadow: none;
           box-shadow: none;
-  border-color: #2EE09A;
+  border-color: #2ee09a;
   -webkit-transition: 300ms;
   transition: 300ms;
 }
 
 .btn-secondary:hover {
-  background: #2EE09A;
+  background: #2ee09a;
   color: #101d49;
   -webkit-box-shadow: 0px 1px 34px 0px rgba(46, 224, 154, 0.72);
           box-shadow: 0px 1px 34px 0px rgba(46, 224, 154, 0.72);
   -webkit-transition: 300ms;
   transition: 300ms;
-  border-color: #2EE09A;
+  border-color: #2ee09a;
 }
 
 .inputform .master-form, .inputform .form-control {
@@ -161,7 +169,7 @@
 }
 
 .inputform .form-control:focus {
-  background: #15265C;
+  background: #15265c;
   -webkit-box-shadow: none;
           box-shadow: none;
 }

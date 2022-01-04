@@ -1,244 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About me</title>
-    <link rel="icon" href="Assets/images/icon.png" type="image/icon type">
+    <link rel="icon" href="Assets/images/icon.png" type="image/icon type" />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
     <!--AOS CSS-->
-    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet" />
 
     <!--My CSS-->
-    <link rel="stylesheet" href="Assets/style/aboutme.css" type="text/css">
+    <link rel="stylesheet" href="Assets/style/aboutme.css" type="text/css" />
 
     <!-- Import font-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!--AOS javascript-->
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 
-  <!--AOS javascript-->
-  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-
-  <!-- Navbar-->
-  <nav class="navbar fixed-top navbar-expand-lg">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">
-          <img src="Assets/images/Logo.png" height="38" width="45" alt="Logo Dhira">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="aboutme.html">About me</a>
-          </li>
-          <li class="nav-item">
-          <a href="login.html" class="btn btn-secondary">Sign out</a>
-          </li>
-        </ul>
+    <!-- Navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="Assets/images/Logo.png" height="38" width="45" alt="Logo Dhira" /> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" height="100%" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+            </svg>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="aboutme.html">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-secondary" href="login.html">Sign Out</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
-  <!--Information-->
-  <section class="info">
-    <div class="container justify-content-center">
+    <!--Information-->
+    <section class="info">
+      <div class="container justify-content-center">
         <div class="row">
-            <div class="col-lg-6">
-                <div class="col-12">
-                  <div class="desc">
-                    <div class="container" style="padding: 0;">
-                      <div class="row">
-                        <div class="photo col-lg-4">
-                          <div class="col-12" data-aos="fade-right" data-aos-duration="2000">
-                            <!--Photo-->
-                            <img src="Assets/images/photoprofil.png" class="photoprofil" width="165" alt="Dhira">
-                          </div>
-                        </div>
-                        <div class="col-lg-8">
-                          <!--Summary-->
-                          <div class="col-12" data-aos="fade-up" data-aos-duration="2000">
-                            <h6>Student</h6>
-                            <h3>I KOMANG DHIRA DANUARTA</h3>
-                            <br>
-                            <p>Student at Bumigora Univesity and now in the third semester. 
-                               Have the ability to think creatively and focus on details.
-                              Have an interest in UI/UX design and front-end web development.
-                            </p>
-                          </div>
-                        </div>
+          <div class="col-lg-6">
+            <div class="col-12">
+              <div class="desc">
+                <div class="container" style="padding: 0">
+                  <div class="row">
+                    <div class="photo col-lg-4">
+                      <div class="col-12" data-aos="fade-right" data-aos-duration="2000">
+                        <!--Photo-->
+                        <img src="Assets/images/photoprofil.png" class="photoprofil" width="165" alt="Dhira" />
                       </div>
                     </div>
-                  </div>
-                  <!--Contact-->
-                  <div class="container" style="padding: 0;" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="row">
-                      <div class="contact col-lg-12">
-                        <div class="col-12">
-                          <br>
-                          <h5>
-                            Contact
-                          </h5>
-                          <hr>
-                          <ul>
-                            <li>
-                              <img src="Assets/images/email.svg" alt="email" style="float: left;">
-                              <p>dhiradanuarta@gmail.com</p>
-                            </li>
-                            <li>
-                              <img src="Assets/images/phone.svg" alt="phone" style="float: left;">
-                              <p>+62 877 - 0978 - 2139</p>
-                            </li>
-                            <li>
-                              <img src="Assets/images/instagram.svg" alt="instagram" style="float: left;">
-                              <p>@dhira.danuarta</p>
-                            </li>
-                          </ul>
-                          <br>
-                          <!--Interest-->
-                          <div class="interest">
-                            <h5>
-                              Interest
-                            </h5>
-                            <hr>
-                            <p>UI/UX design, Front-end web development.</p>
-                          </div>
-                        </div>
+                    <div class="col-lg-8">
+                      <!--Summary-->
+                      <div class="col-12" data-aos="fade-up" data-aos-duration="2000">
+                        <h6>Student</h6>
+                        <h3>I KOMANG DHIRA DANUARTA</h3>
+                        <br />
+                        <p>Student at Bumigora Univesity and now in the third semester. Have the ability to think creatively and focus on details. Have an interest in UI/UX design and front-end web development.</p>
                       </div>
                     </div>
                   </div>
                 </div>
-            </div>
-            <!--Education-->
-            <div class="col-lg-6">
-              <div class="education col-12" data-aos="fade-left" data-aos-duration="2000">
-                  <h4>
-                    Education
-                  </h4>
-                  <hr>
-                  <h6>
-                    2020 - now
-                  </h6>
-                  <h5>
-                    Bumigora University
-                  </h5>
-                  <p>
-                    Diploma 3 Software Engineering
-                  </p>
-                  <br>
-                  <h6>
-                    2017 - 2020
-                  </h6>
-                  <h5>
-                    SMAN 7 Mataram
-                  </h5>
-                  <p>
-                    Natural Science
-                  </p>
               </div>
-              <!--Skills-->
-              <div class="skills" data-aos="fade-up" data-aos-duration="2000">
-                <br>
-                <h4>
-                  Skills
-                </h4>
-                <hr>
+
+              <div class="container" style="padding: 0" data-aos="fade-up" data-aos-duration="1000">
                 <div class="row">
-                  <div class="col-lg-6">
+                  <div class="contact col-lg-12">
+                    <!-- Contact -->
                     <div class="col-12">
-                      <!--Skill Language-->
-                      <h6>
-                        Language
-                      </h6>
-                      <p>Bahasa Indonesia</p>
-                      <div class="box col-12">
-                        <div class="bahasa">
-                          <p>80%</p>
-                        </div>
+                      <br />
+                      <h5>Contact</h5>
+                      <hr />
+                      <ul>
+                        <li>
+                          <img src="Assets/images/email.svg" alt="email" style="float: left" />
+                          <p>dhiradanuarta@gmail.com</p>
+                        </li>
+                        <li>
+                          <img src="Assets/images/phone.svg" alt="phone" style="float: left" />
+                          <p>+62 877 - 0978 - 2139</p>
+                        </li>
+                        <li>
+                          <img src="Assets/images/instagram.svg" alt="instagram" style="float: left" />
+                          <p>@dhira.danuarta</p>
+                        </li>
+                      </ul>
+                      <br />
+                      <!-- end contact -->
+                      <!--Interest-->
+                      <div class="interest">
+                        <h5>Interest</h5>
+                        <hr />
+                        <p>UI/UX design, Front-end web development.</p>
                       </div>
-                      <p>English</p>
-                      <div class="box col-12">
-                        <div class="english">
-                          <p>30%</p>
-                        </div>
+                      <!-- End interest -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <!-- education -->
+            <div class="education col-12" data-aos="fade-left" data-aos-duration="2000">
+              <h4>Education</h4>
+              <hr />
+              <h6>2020 - now</h6>
+              <h5>Bumigora University</h5>
+              <p>Diploma 3 Software Engineering</p>
+              <br />
+              <h6>2017 - 2020</h6>
+              <h5>SMAN 7 Mataram</h5>
+              <p>Natural Science</p>
+            </div>
+            <!-- end education -->
+            <!--Skills-->
+            <div class="skills" data-aos="fade-up" data-aos-duration="2000">
+              <br />
+              <h4>Skills</h4>
+              <hr />
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="col-12">
+                    <h6>Language</h6>
+                    <p>Bahasa Indonesia</p>
+                    <div class="box col-12">
+                      <div class="bahasa">
+                        <p>80%</p>
                       </div>
-                      <br>
-                      <!--Skill Design-->
-                      <h6>
-                        Design
-                      </h6>
-                      <p>
-                        <img src="Assets/images/figma.svg" alt="figma">Figma
-                      </p>
-                      <div class="box col-12">
-                        <div class="figma">
-                          <p>70%</p>
-                        </div>
+                    </div>
+                    <p>English</p>
+                    <div class="box col-12">
+                      <div class="english">
+                        <p>30%</p>
                       </div>
-                      <p>
-                        <img src="Assets/images/adobeillustrator.svg" alt="adobeillustrator">Adobe Illustrator
-                      </p>
-                      <div class="box col-12">
-                        <div class="illustrator">
-                          <p>50%</p>
-                        </div>
+                    </div>
+                    <br />
+                    <h6>Design</h6>
+                    <p><img src="Assets/images/figma.svg" alt="figma" />Figma</p>
+                    <div class="box col-12">
+                      <div class="figma">
+                        <p>70%</p>
+                      </div>
+                    </div>
+                    <p><img src="Assets/images/adobeillustrator.svg" alt="adobeillustrator" />Adobe Illustrator</p>
+                    <div class="box col-12">
+                      <div class="illustrator">
+                        <p>50%</p>
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-6">
-                    <!--Skill Web-->
-                    <div class="col-12">
-                      <h6>
-                        Web
-                      </h6>
-                      <p>HTML</p>
-                      <div class="box col-12">
-                        <div class="html">
-                          <p>45%</p>
-                        </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="col-12">
+                    <h6>Web</h6>
+                    <p>HTML</p>
+                    <div class="box col-12">
+                      <div class="html">
+                        <p>45%</p>
                       </div>
-                      <p>CSS</p>
-                      <div class="box col-12">
-                        <div class="css">
-                          <p>40%</p>
-                        </div>
+                    </div>
+                    <p>CSS</p>
+                    <div class="box col-12">
+                      <div class="css">
+                        <p>40%</p>
                       </div>
-                      <p>Javascript</p>
-                      <div class="box col-12">
-                        <div class="js">
-                          <p>15%</p>
-                        </div>
+                    </div>
+                    <p>Javascript</p>
+                    <div class="box col-12">
+                      <div class="js">
+                        <p>15%</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
+            <!-- End skills -->
           </div>
         </div>
-    </div>
-  </section>
+      </div>
+    </section>
 
-  <!--Footer-->
-  <footer>
-    <p>
-      I Komang Dhira Danuarta | 2021
-    </p>
-  </footer>
+    <!--Footer-->
+    <footer>
+      <p>I Komang Dhira Danuarta | 2021</p>
+    </footer>
+    <!-- end footer -->
 
-  <!--AOS initialize-->
-  <script type="text/javascript">
+    <!--AOS initialize-->
+    <script type="text/javascript">
       AOS.init();
-  </script>
-</body>
+    </script>
+  </body>
 </html>

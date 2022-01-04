@@ -1,6 +1,6 @@
-$navy: #15265C;
+$navy: #15265c;
 $white: #ffffff;
-$green: #2EE09A;
+$green: #2ee09a;
 $darknavy: #101d49;
 $desc: #ffffff69;
 $transparentwhite: #ffffff1c;
@@ -12,218 +12,216 @@ $bold: 700;
 @import './buttons';
 
 html {
-    min-height: 100%;
-    margin: 0;
+  min-height: 100%;
+  margin: 0;
 }
 
-body{
-    padding-top: 64px;
-    background: no-repeat;
-    font-family: 'Montserrat', sans-serif;
-    background: rgb(30,142,97);
-    background: linear-gradient(180deg, rgba(30,142,97,1) 0%, rgba(21,38,92,1) 100%);
+body {
+  padding-top: 64px;
+  background: no-repeat;
+  font-family: 'Montserrat', sans-serif;
+  background: rgb(30, 142, 97);
+  background: linear-gradient(180deg, rgba(30, 142, 97, 1) 0%, rgba(21, 38, 92, 1) 100%);
 }
 
-
-nav{
-    background: $transparentwhite;
-    backdrop-filter: blur(8px);
-    box-shadow: 0px 0px 76px -16px rgba(0, 0, 0, 0.247);
-    .navbar-nav{
-        .active{ 
-            color: $green !important;
-            font-weight: $semibold !important;
-        }
-
-        .nav-link{
-            color: $white;
-            font-weight: $regular;
-        }
-        
-        li{
-            padding-left: 42px;
-            margin-top: auto;
-            margin-bottom: auto;
-        }
-    
+nav {
+  background: $transparentwhite;
+  backdrop-filter: blur(8px);
+  box-shadow: 0px 0px 76px -16px rgba(0, 0, 0, 0.247);
+  .navbar-toggler {
+    color: $white;
+  }
+  .navbar-nav {
+    .active {
+      color: $green !important;
+      font-weight: $semibold !important;
     }
+
+    .nav-link {
+      color: $white;
+      font-weight: $regular;
+    }
+
+    li {
+      padding-left: 42px;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+  }
 }
 
-.info{
-    hr{
-        color: $desc
-    }
-    padding: 32px 0 32px 0;
-    .photo{
-        text-align: center;
-        padding-right: 0;
-    }
-    .photoprofil{
-        margin: 0 auto 0 auto;
-        border-radius: 10px;
-        border-width: 3px;
-        border-color: $green;
-        border-style: solid;
-    }
-    .desc{
-        h3{
-            color: $white;
-            font-weight: $semibold;
-        }
-        h6{
-            color: $desc;
-            font-weight: $semibold;
-            letter-spacing: 1px;
-        }
-        p{
-            color: $desc;
-            margin-bottom: 0;
-        }
-    }
-    .contact{
-        p{
-            color: $desc;
-        }
-        h5{
-            font-weight: $semibold;
-            color: $white;
-            letter-spacing: 1px;
-        }
-        ul{
-            color: $desc;
-            padding-left: 0;
-            
-            li{
-                list-style: none;
-            }
-            img{
-                padding-right: 16px;
-                padding-top: 4px;
-            }
-        }
-    }
-    .education{
-        h5{
-            font-weight: $regular;
-            color: $white;
-            letter-spacing: 1px;
-        }
-        h4{
-            font-weight: $semibold;
-            color: $white;
-            letter-spacing: 1px;
-        }
-        h6{
-            font-weight: $semibold;
-            color: $desc;
-            letter-spacing: 1px;
-        }
-        p{
-            font-weight: $regular;
-            color: $desc;
-        }
-    }
-    .skills{
-        p{
-            color: $desc;
-        }
-        h4{
-            font-weight: $semibold;
-            color: $white;
-            letter-spacing: 1px;
-        }
-        h6{
-            color: $white;
-            font-weight: $semibold;
-            letter-spacing: 1px;
-        }
-        img{
-            margin-right: 16px;
-            width: 16px;
-            text-align: center;
-        }
-        .box{
-            background: #287053;
-            border-radius: 8px;
-            .bahasa{
-                p{
-                    color: $navy;
-                    text-align: right;
-                    margin-right: 8px;
-                }
-                border-radius: 8px;
-                width: 80%;
-                background: $green;
-            }
-            .english{
-                p{
-                    color: $navy;
-                    text-align: right;
-                    margin-right: 8px;
-                }
-                border-radius: 8px;
-                width: 30%;
-                background: $green;
-            }
-            .figma{
-                p{
-                    color: $navy;
-                    text-align: right;
-                    margin-right: 8px;
-                }
-                border-radius: 8px;
-                width: 70%;
-                background: $green;
-            }
-            .illustrator{
-                p{
-                    color: $navy;
-                    text-align: right;
-                    margin-right: 8px;
-                }
-                border-radius: 8px;
-                width: 50%;
-                background: $green;
-            }
-            .html{
-                p{
-                    color: $navy;
-                    text-align: right;
-                    margin-right: 8px;
-                }
-                border-radius: 8px;
-                width: 45%;
-                background: $green;
-            }
-            .css{
-                p{
-                    color: $navy;
-                    text-align: right;
-                    margin-right: 8px;
-                }
-                border-radius: 8px;
-                width: 40%;
-                background: $green;
-            }
-            .js{
-                p{
-                    color: $navy;
-                    text-align: right;
-                    margin-right: 8px;
-                }
-                border-radius: 8px;
-                width: 15%;
-                background: $green;
-            }
-        }        
-    }
-}
-
-footer{
-    font-size: 12px;
+.info {
+  hr {
     color: $desc;
+  }
+  padding: 32px 0 32px 0;
+  .photo {
     text-align: center;
+    padding-right: 0;
+  }
+  .photoprofil {
+    margin: 0 auto 0 auto;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: $green;
+    border-style: solid;
+  }
+  .desc {
+    h3 {
+      color: $white;
+      font-weight: $semibold;
+    }
+    h6 {
+      color: $desc;
+      font-weight: $semibold;
+      letter-spacing: 1px;
+    }
+    p {
+      color: $desc;
+      margin-bottom: 0;
+    }
+  }
+  .contact {
+    p {
+      color: $desc;
+    }
+    h5 {
+      font-weight: $semibold;
+      color: $white;
+      letter-spacing: 1px;
+    }
+    ul {
+      color: $desc;
+      padding-left: 0;
+
+      li {
+        list-style: none;
+      }
+      img {
+        padding-right: 16px;
+        padding-top: 4px;
+      }
+    }
+  }
+  .education {
+    h5 {
+      font-weight: $regular;
+      color: $white;
+      letter-spacing: 1px;
+    }
+    h4 {
+      font-weight: $semibold;
+      color: $white;
+      letter-spacing: 1px;
+    }
+    h6 {
+      font-weight: $semibold;
+      color: $desc;
+      letter-spacing: 1px;
+    }
+    p {
+      font-weight: $regular;
+      color: $desc;
+    }
+  }
+  .skills {
+    p {
+      color: $desc;
+    }
+    h4 {
+      font-weight: $semibold;
+      color: $white;
+      letter-spacing: 1px;
+    }
+    h6 {
+      color: $white;
+      font-weight: $semibold;
+      letter-spacing: 1px;
+    }
+    img {
+      margin-right: 16px;
+      width: 16px;
+      text-align: center;
+    }
+    .box {
+      background: #287053;
+      border-radius: 8px;
+      .bahasa {
+        p {
+          color: $navy;
+          text-align: right;
+          margin-right: 8px;
+        }
+        border-radius: 8px;
+        width: 80%;
+        background: $green;
+      }
+      .english {
+        p {
+          color: $navy;
+          text-align: right;
+          margin-right: 8px;
+        }
+        border-radius: 8px;
+        width: 30%;
+        background: $green;
+      }
+      .figma {
+        p {
+          color: $navy;
+          text-align: right;
+          margin-right: 8px;
+        }
+        border-radius: 8px;
+        width: 70%;
+        background: $green;
+      }
+      .illustrator {
+        p {
+          color: $navy;
+          text-align: right;
+          margin-right: 8px;
+        }
+        border-radius: 8px;
+        width: 50%;
+        background: $green;
+      }
+      .html {
+        p {
+          color: $navy;
+          text-align: right;
+          margin-right: 8px;
+        }
+        border-radius: 8px;
+        width: 45%;
+        background: $green;
+      }
+      .css {
+        p {
+          color: $navy;
+          text-align: right;
+          margin-right: 8px;
+        }
+        border-radius: 8px;
+        width: 40%;
+        background: $green;
+      }
+      .js {
+        p {
+          color: $navy;
+          text-align: right;
+          margin-right: 8px;
+        }
+        border-radius: 8px;
+        width: 15%;
+        background: $green;
+      }
+    }
+  }
 }
 
-
-    
+footer {
+  font-size: 12px;
+  color: $desc;
+  text-align: center;
+}

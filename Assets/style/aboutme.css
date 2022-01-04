@@ -1,5 +1,9 @@
+a {
+  color: #15265c;
+}
+
 .btn-master, .btn-primary, .btn-secondary {
-  padding: 8px 16px 8px 16px;
+  padding: 0.5em 1em;
   border-radius: 5px;
   font-weight: 700;
   font-size: 16px;
@@ -10,8 +14,8 @@
 
 .btn-primary {
   border: none;
-  color: #15265C;
-  background: #2EE09A;
+  color: #15265c;
+  background: #2ee09a;
 }
 
 .btn-primary:hover {
@@ -26,7 +30,7 @@
 }
 
 .btn-primary:focus {
-  background: #EF84F5;
+  background: #ef84f5;
   -webkit-box-shadow: none;
           box-shadow: none;
   color: #101d49;
@@ -42,7 +46,7 @@
 .btn-secondary {
   background: none;
   border-width: 2px;
-  border-color: #2EE09A;
+  border-color: #2ee09a;
 }
 
 .btn-secondary:active {
@@ -51,22 +55,22 @@
 }
 
 .btn-secondary:focus {
-  background: #2EE09A;
+  background: #2ee09a;
   -webkit-box-shadow: none;
           box-shadow: none;
-  border-color: #2EE09A;
+  border-color: #2ee09a;
   -webkit-transition: 300ms;
   transition: 300ms;
 }
 
 .btn-secondary:hover {
-  background: #2EE09A;
+  background: #2ee09a;
   color: #101d49;
   -webkit-box-shadow: 0px 1px 34px 0px rgba(46, 224, 154, 0.72);
           box-shadow: 0px 1px 34px 0px rgba(46, 224, 154, 0.72);
   -webkit-transition: 300ms;
   transition: 300ms;
-  border-color: #2EE09A;
+  border-color: #2ee09a;
 }
 
 html {
@@ -91,8 +95,12 @@ nav {
           box-shadow: 0px 0px 76px -16px rgba(0, 0, 0, 0.247);
 }
 
+nav .navbar-toggler {
+  color: #ffffff;
+}
+
 nav .navbar-nav .active {
-  color: #2EE09A !important;
+  color: #2ee09a !important;
   font-weight: 600 !important;
 }
 
@@ -124,7 +132,7 @@ nav .navbar-nav li {
   margin: 0 auto 0 auto;
   border-radius: 10px;
   border-width: 3px;
-  border-color: #2EE09A;
+  border-color: #2ee09a;
   border-style: solid;
 }
 
@@ -221,11 +229,11 @@ nav .navbar-nav li {
 .info .skills .box .bahasa {
   border-radius: 8px;
   width: 80%;
-  background: #2EE09A;
+  background: #2ee09a;
 }
 
 .info .skills .box .bahasa p {
-  color: #15265C;
+  color: #15265c;
   text-align: right;
   margin-right: 8px;
 }
@@ -233,11 +241,11 @@ nav .navbar-nav li {
 .info .skills .box .english {
   border-radius: 8px;
   width: 30%;
-  background: #2EE09A;
+  background: #2ee09a;
 }
 
 .info .skills .box .english p {
-  color: #15265C;
+  color: #15265c;
   text-align: right;
   margin-right: 8px;
 }
@@ -245,11 +253,11 @@ nav .navbar-nav li {
 .info .skills .box .figma {
   border-radius: 8px;
   width: 70%;
-  background: #2EE09A;
+  background: #2ee09a;
 }
 
 .info .skills .box .figma p {
-  color: #15265C;
+  color: #15265c;
   text-align: right;
   margin-right: 8px;
 }
@@ -257,11 +265,11 @@ nav .navbar-nav li {
 .info .skills .box .illustrator {
   border-radius: 8px;
   width: 50%;
-  background: #2EE09A;
+  background: #2ee09a;
 }
 
 .info .skills .box .illustrator p {
-  color: #15265C;
+  color: #15265c;
   text-align: right;
   margin-right: 8px;
 }
@@ -269,11 +277,11 @@ nav .navbar-nav li {
 .info .skills .box .html {
   border-radius: 8px;
   width: 45%;
-  background: #2EE09A;
+  background: #2ee09a;
 }
 
 .info .skills .box .html p {
-  color: #15265C;
+  color: #15265c;
   text-align: right;
   margin-right: 8px;
 }
@@ -281,11 +289,11 @@ nav .navbar-nav li {
 .info .skills .box .css {
   border-radius: 8px;
   width: 40%;
-  background: #2EE09A;
+  background: #2ee09a;
 }
 
 .info .skills .box .css p {
-  color: #15265C;
+  color: #15265c;
   text-align: right;
   margin-right: 8px;
 }
@@ -293,11 +301,11 @@ nav .navbar-nav li {
 .info .skills .box .js {
   border-radius: 8px;
   width: 15%;
-  background: #2EE09A;
+  background: #2ee09a;
 }
 
 .info .skills .box .js p {
-  color: #15265C;
+  color: #15265c;
   text-align: right;
   margin-right: 8px;
 }

@@ -1,6 +1,6 @@
-$navy: #15265C;
+$navy: #15265c;
 $white: #ffffff;
-$green: #2EE09A;
+$green: #2ee09a;
 $darknavy: #101d49;
 $desc: #ffffff69;
 $transparentwhite: #ffffff1c;
@@ -13,47 +13,40 @@ $bold: 700;
 @import './forms';
 
 html {
-    min-height: 100%;
-    margin: 0;
+  min-height: 100%;
+  margin: 0;
 }
 
-body{
-    background-repeat: no-repeat;
-    color: $white;
-    font-family: 'Montserrat', sans-serif;
-    background: rgb(21,38,92);
-    background: linear-gradient(360deg, rgba(21,38,92,1) 0%, rgba(30,142,97,1) 100%);
-    margin-top: 64px;
-    
+body {
+  background-repeat: no-repeat;
+  color: $white;
+  font-family: 'Montserrat', sans-serif;
+  background: rgb(21, 38, 92);
+  background: linear-gradient(360deg, rgba(21, 38, 92, 1) 0%, rgba(30, 142, 97, 1) 100%);
+  margin-top: 64px;
 }
 
-.illustration{
-    display: flex;
-    justify-content: center;
+.illustration {
+  display: flex;
+  justify-content: center;
 }
 
-h1{
-    font-weight: $semibold;
-    text-align: center;
+h1 {
+  font-weight: $semibold;
+  text-align: center;
 }
 
-.login{
-    background: $transparentwhite;
-    border-radius: 20px;
-    padding: 32px 24px 32px 24px;
-    height: 100%;
-    margin-top: auto;
-    margin-bottom: auto;
+.login {
+  background: $transparentwhite;
+  border-radius: 20px;
+  padding: 32px 24px 32px 24px;
+  height: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
-footer{
-    font-size: 12px;
-    color: $desc;
-    text-align: center;
+footer {
+  font-size: 12px;
+  color: $desc;
+  text-align: center;
 }
-
-
-
-
-
-
