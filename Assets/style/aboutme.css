@@ -103,6 +103,10 @@ nav .navbar-toggler {
   color: #ffffff;
 }
 
+nav .navbar-nav {
+  text-align: center;
+}
+
 nav .navbar-nav .active {
   color: #2ee09a !important;
   font-weight: 600 !important;

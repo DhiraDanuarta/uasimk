@@ -97,6 +97,10 @@ nav .navbar-toggler {
   color: #ffffff;
 }
 
+nav .navbar-nav {
+  text-align: center;
+}
+
 nav .navbar-nav .active {
   color: #2ee09a !important;
   font-weight: 600 !important;
@@ -153,6 +157,17 @@ nav .navbar-nav li {
   letter-spacing: 1%;
   padding-top: 8px;
   padding-bottom: 16px;
+}
+
+.content .copywriting .desc a {
+  text-decoration: none;
+  color: #2ee09a;
+}
+
+.content .copywriting .desc a:hover {
+  color: #ffffff;
+  -webkit-transition: 300ms;
+  transition: 300ms;
 }
 
 hr {
