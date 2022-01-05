@@ -176,75 +176,71 @@ hr {
   margin: 0 25% 0 25%;
 }
 
-.learn {
-  padding: 3em 0;
+.project {
+  margin: 3em 0;
 }
 
-.learn h1 {
+.project h1 {
   font-weight: 600;
   color: #ffffff;
 }
 
-.learn h3 {
-  font-weight: 400;
+.project h6 {
+  color: #ffffff69;
+  font-weight: 600;
+}
+
+.project h3 {
   color: #ffffff;
+  font-weight: 600;
 }
 
-.learn .js {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-radius: 16px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #ffffff1c;
-  text-align: center;
-  height: 30vmax;
-  background-color: #ffffff1c;
+.project img {
+  border-radius: 15px;
 }
 
-.learn .uiux {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-radius: 16px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #ffffff1c;
-  text-align: center;
-  height: 30vmax;
+.project .project1 .col {
+  position: relative;
   background-color: #ffffff1c;
+  border-radius: 25px;
+  padding: 1.2rem;
 }
 
-.learn .frontend {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-radius: 16px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #ffffff1c;
-  text-align: center;
-  height: 30vmax;
+.project .project1 .col .overlay {
   background-color: #ffffff1c;
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  border-radius: 25px;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  height: 0;
+}
+
+.project .project1 .col:hover {
+  -webkit-box-shadow: 0px 32px 74px -9px rgba(16, 29, 73, 0.705);
+          box-shadow: 0px 32px 74px -9px rgba(16, 29, 73, 0.705);
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.project .project1 .col:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.project .project1 .btn {
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  right: 15%;
+  overflow: hidden;
 }
 
 .contact {
