@@ -228,78 +228,39 @@ body {
   background: linear-gradient(360deg, #15265c 0%, #9f59a3 100%);
 }
 
-.project {
-  margin: 3em 0;
+.project1 {
+  margin: 3rem 0;
 }
 
-.project h1 {
+.project1 h1 {
+  margin: 1rem 0 0 0;
   font-weight: 600;
   color: #ffffff;
-  text-align: center;
 }
 
-.project h6 {
+.project1 h3 {
   color: #ffffff69;
   font-weight: 600;
+  margin: 0 0 2rem 0;
 }
 
-.project h3 {
+.project1 a {
+  text-decoration: none;
+}
+
+.project1 span .bi {
+  padding-bottom: 3px;
+}
+
+.project1 p {
+  margin: 3rem 0 0 0;
   color: #ffffff;
-  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: justify;
 }
 
-.project img {
+.project1 img {
   border-radius: 15px;
-}
-
-.project .card-project {
-  margin-top: 3rem;
-}
-
-.project .card-project .project1 .col {
-  position: relative;
-  background-color: #ffffff1c;
-  border-radius: 25px;
-  padding: 1.2rem;
-  -webkit-transition: -webkit-box-shadow 300ms ease, -webkit-transform 300ms ease;
-  transition: -webkit-box-shadow 300ms ease, -webkit-transform 300ms ease;
-  transition: box-shadow 300ms ease, transform 300ms ease;
-  transition: box-shadow 300ms ease, transform 300ms ease, -webkit-box-shadow 300ms ease, -webkit-transform 300ms ease;
-}
-
-.project .card-project .project1 .col .overlay {
-  background-color: #2ee09942;
-  border-radius: 25px;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  -webkit-transition: 0.5s ease;
-  transition: 0.5s ease;
-}
-
-.project .card-project .project1 .col:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  -webkit-box-shadow: 0px 32px 74px -9px rgba(16, 29, 73, 0.705);
-          box-shadow: 0px 32px 74px -9px rgba(16, 29, 73, 0.705);
-}
-
-.project .card-project .project1 .col:hover .overlay {
-  opacity: 1;
-}
-
-.project .card-project .project1 .btn {
-  width: 70%;
-  position: absolute;
-  top: 50%;
-  left: 15%;
-  right: 15%;
-  overflow: hidden;
 }
 
 footer {
@@ -309,4 +270,4 @@ footer {
   text-align: center;
   padding: 2em 0 0 0;
 }
-/*# sourceMappingURL=project.css.map */
+/*# sourceMappingURL=project1.css.map */

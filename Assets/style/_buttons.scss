@@ -2,6 +2,14 @@ $regular: 400;
 $semibold: 600;
 $bold: 700;
 
+a {
+  color: $green;
+  transition: 300ms ease;
+}
+a:hover {
+  color: $white;
+}
+
 .btn-master {
   padding: 0.5em 1em;
   border-radius: 5px;

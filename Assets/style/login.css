@@ -1,3 +1,13 @@
+a {
+  color: #2ee09a;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
 .btn-master, .btn-primary, .btn-secondary {
   padding: 0.5em 1em;
   border-radius: 5px;
