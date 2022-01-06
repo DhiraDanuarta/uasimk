@@ -12,6 +12,10 @@
   border: none;
   color: #15265c;
   background: #2ee09a;
+  -webkit-transition: -webkit-box-shadow 300ms ease;
+  transition: -webkit-box-shadow 300ms ease;
+  transition: box-shadow 300ms ease;
+  transition: box-shadow 300ms ease, -webkit-box-shadow 300ms ease;
 }
 
 .btn-primary:hover {
@@ -21,8 +25,6 @@
   color: #101d49;
   -webkit-box-shadow: 0px 1px 34px 0px rgba(239, 132, 245, 0.72);
           box-shadow: 0px 1px 34px 0px rgba(239, 132, 245, 0.72);
-  -webkit-transition: 300ms;
-  transition: 300ms;
 }
 
 .btn-primary:focus {
@@ -43,6 +45,10 @@
   background: none;
   border-width: 2px;
   border-color: #2ee09a;
+  -webkit-transition: -webkit-box-shadow 300ms ease;
+  transition: -webkit-box-shadow 300ms ease;
+  transition: box-shadow 300ms ease;
+  transition: box-shadow 300ms ease, -webkit-box-shadow 300ms ease;
 }
 
 .btn-secondary:active {
@@ -64,8 +70,6 @@
   color: #101d49;
   -webkit-box-shadow: 0px 1px 34px 0px rgba(46, 224, 154, 0.72);
           box-shadow: 0px 1px 34px 0px rgba(46, 224, 154, 0.72);
-  -webkit-transition: 300ms;
-  transition: 300ms;
   border-color: #2ee09a;
 }
 

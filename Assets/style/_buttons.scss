@@ -15,6 +15,7 @@ $bold: 700;
   border: none;
   color: $navy;
   background: $green;
+  transition: box-shadow 300ms ease;
 }
 
 .btn-primary:hover {
@@ -22,7 +23,6 @@ $bold: 700;
   background: linear-gradient(90deg, rgba(239, 132, 245, 1) 0%, rgba(46, 225, 154, 1) 100%);
   color: $darknavy;
   box-shadow: 0px 1px 34px 0px rgba(239, 132, 245, 0.72);
-  transition: 300ms;
 }
 
 .btn-primary:focus {
@@ -41,6 +41,7 @@ $bold: 700;
   background: none;
   border-width: 2px;
   border-color: $green;
+  transition: box-shadow 300ms ease;
 }
 
 .btn-secondary:active {
@@ -58,6 +59,6 @@ $bold: 700;
   background: $green;
   color: $darknavy;
   box-shadow: 0px 1px 34px 0px rgba(46, 224, 154, 0.72);
-  transition: 300ms;
+
   border-color: $green;
 }

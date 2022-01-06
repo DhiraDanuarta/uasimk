@@ -11,14 +11,18 @@ $bold: 700;
 
 @import './buttons';
 
-body {
-  padding-top: 64px;
-  background: no-repeat;
-  font-family: 'Montserrat', sans-serif;
-  background: rgb(30, 142, 97);
-  background: radial-gradient(circle, rgba(30, 142, 97, 1) 0%, rgba(21, 38, 92, 1) 100%);
+html {
+  min-height: 100%;
+  margin: 0;
 }
 
+body {
+  background: no-repeat;
+  padding-top: 64px;
+  font-family: 'Montserrat', sans-serif;
+  background: rgb(21, 38, 92);
+  background: linear-gradient(360deg, rgba(21, 38, 92, 1) 0%, rgba(159, 89, 163, 1) 100%);
+}
 nav {
   background: $transparentwhite;
   backdrop-filter: blur(8px);
@@ -56,47 +60,6 @@ nav {
   }
 }
 
-.content {
-  padding: 1em 0 3em 0;
-  .illustration {
-    display: flex;
-    img {
-      width: 100%;
-      margin: auto;
-    }
-  }
-
-  .copywriting {
-    display: flex;
-    margin: auto 0;
-    .header {
-      color: $white;
-      font-weight: $semibold;
-    }
-    .desc {
-      color: $desc;
-      font-weight: $regular;
-      font-size: 20px;
-      letter-spacing: 1%;
-      padding-top: 8px;
-      padding-bottom: 16px;
-      a {
-        color: $green;
-        transition: 300ms ease;
-      }
-      a:hover {
-        color: $white;
-      }
-    }
-  }
-}
-
-hr {
-  width: 50%;
-  color: $desc;
-  margin: 0 25% 0 25%;
-}
-
 .project {
   margin: 3em 0;
   h1 {
@@ -116,8 +79,7 @@ hr {
     border-radius: 15px;
   }
   .card-project {
-    margin-top: 3em;
-
+    margin-top: 3rem;
     .project1 {
       .col {
         position: relative;
@@ -156,31 +118,4 @@ hr {
       }
     }
   }
-}
-
-.contact {
-  padding: 3em 0;
-  h1 {
-    font-weight: $semibold;
-    color: $white;
-    text-align: center;
-  }
-  .col-2 {
-    margin-top: 3rem;
-    img {
-      width: 100%;
-      transition: 300ms ease;
-    }
-    img:hover {
-      transform: scale(1.2);
-    }
-  }
-}
-
-footer {
-  page-break-after: always;
-  font-size: 12px;
-  color: $desc;
-  text-align: center;
-  padding: 2em 0 0 0;
 }
