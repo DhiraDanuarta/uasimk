@@ -223,13 +223,7 @@ body {
 }
 
 .content {
-  padding: 1em 0 3em 0;
-}
-
-.content .illustration {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  padding: 1em 0 10em 0;
 }
 
 .content .illustration img {
@@ -238,9 +232,6 @@ body {
 }
 
 .content .copywriting {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   margin: auto 0;
 }
 
@@ -258,6 +249,35 @@ body {
   padding-bottom: 16px;
 }
 
+.content .copywriting .cta a {
+  text-decoration: none;
+}
+
+.content .copywriting .cta a .btn-primary {
+  text-align: start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+  -webkit-transition: width 300ms ease, -webkit-box-shadow 300ms ease;
+  transition: width 300ms ease, -webkit-box-shadow 300ms ease;
+  transition: box-shadow 300ms ease, width 300ms ease;
+  transition: box-shadow 300ms ease, width 300ms ease, -webkit-box-shadow 300ms ease;
+}
+
+.content .copywriting .cta a .btn-primary:hover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
 hr {
   width: 50%;
   color: #ffffff69;
@@ -265,7 +285,7 @@ hr {
 }
 
 .project {
-  margin: 3em 0;
+  margin: 10em 0;
 }
 
 .project h1 {
@@ -339,7 +359,7 @@ hr {
 }
 
 .contact {
-  padding: 3em 0;
+  padding: 10em 0;
 }
 
 .contact h1 {
